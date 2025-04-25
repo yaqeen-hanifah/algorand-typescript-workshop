@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": [
-    "/Users/gabe.algo/Code/algorand-typescript-workshop/projects/algorand-typescript-workshop/smart_contracts/personal_bank/contract.algo.ts"
+    "/Users/gabe.algo/Code/algorand-typescript-workshop/projects/personal-bank/smart_contracts/personal_bank/contract.algo.ts"
   ],
   "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAaA;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;;AAAA;;;;;;AAAA;;AAiCG;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAvBA;;AAAA;AAAA;AAAA;;AAAA;AAVH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAUG;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAVH;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAUE;;;AAEgB;;AAAA;;AAAoB;;AAA3B;AAAP;AACc;;AAAA;;AAAA;AAAd;AAG2C;;AAAA;;AAfY;AAAA;AAAA;AAAA;AAeJ;AAAA;;AAEnD;;;AACiC;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAA/B;;AAAA;AAAA;AAAA;AAKoC;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAtC;;AAAA;AAHE;;AAAA;AAAA;;AAAA;AAAA;;;;AApBqD;AAkCI;;AAlCJ;AAkChB;AAAA;AAAA;AACvC;AAAA;AAEe;AAEG;;;;;;AAFH;;;AAIN;;;AAJM;;;AArCwC;AA6CnC;;AA7CmC;AA6CnB;AAApC;AAAA;AAEA",
   "op_pc_offset": 0,
