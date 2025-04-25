@@ -1,0 +1,9 @@
+[algokit]
+min_version = "v2.6.0"
+
+[project]
+type = "frontend"
+name = 'workshop-script'
+
+[project.run]
+start = { commands = ['npm run start'], description = 'Start workshop script' }
