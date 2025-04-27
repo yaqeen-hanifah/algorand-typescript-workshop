@@ -6,6 +6,9 @@
     },
     {
       "path": "projects/personal-bank"
+    },
+    {
+      "path": "projects/workshop-script"
     }
   ],
   "settings": {
