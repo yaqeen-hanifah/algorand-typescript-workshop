@@ -28,6 +28,7 @@ describe('personal bank contract', () => {
   }
 
   test('deposit', async () => {
+    // Arrange
     const { testAccount, algorand } = localnet.context
     const { client } = await deploy(testAccount)
 
@@ -37,12 +38,15 @@ describe('personal bank contract', () => {
       amount: AlgoAmount.Algos(1),
     })
 
+    // Act
     const result = await client.send.deposit({ args: { payTxn }, populateAppCallResources: true })
 
+    // Assert
     expect(result.return).toBe(1000000n)
   })
 
   test('deposit & withdraw', async () => {
+    // Arrange
     const { testAccount, algorand } = localnet.context
     const { client } = await deploy(testAccount)
 
@@ -58,12 +62,14 @@ describe('personal bank contract', () => {
 
     await client.send.deposit({ args: { payTxn }, populateAppCallResources: true })
 
+    // Act
     const result = await client.send.withdraw({
       args: {},
       coverAppCallInnerTransactionFees: true,
       maxFee: AlgoAmount.MicroAlgo(3000),
     })
 
+    // Assert
     expect(result.return).toBe(1000000n)
   })
 })
