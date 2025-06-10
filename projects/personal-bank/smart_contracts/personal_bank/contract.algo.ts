@@ -12,6 +12,8 @@ import {
 } from '@algorandfoundation/algorand-typescript'
 
 export class PersonalBank extends Contract {
+  public github = BoxMap<Account, string>({ keyPrefix: 'yaqeen-hanifah' })
+
   public depositors = BoxMap<Account, uint64>({ keyPrefix: 'depositors' })
 
   /**
